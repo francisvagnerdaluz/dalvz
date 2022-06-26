@@ -21,6 +21,6 @@ const estilos=makeStyles({
 export const BarraBase=()=>{
     const classes=estilos()
     return(
-        <Typography className={classes.tipografia}><IconeChat className={classes.chat}/> Estamos online!</Typography>
+        <Typography className={classes.tipografia}><IconeChat className={classes.chat}/> Estamo online!</Typography>
     )
 }
