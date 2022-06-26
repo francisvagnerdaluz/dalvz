@@ -1,0 +1,37 @@
+.lateral-esquerda{
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 40px;
+    margin: 10px;
+    width: 37%;
+    text-align: left;
+    height: 98vh;
+    position: fixed;
+    background-color: #3b4050;
+}
+.lateral-esquerda img{
+    width: 100px;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+.lateral-esquerda h1,p{
+    color: white;
+}
+.lateral-esquerda p{
+    font-weight: lighter;
+    font-size: 95%;
+    line-height: 1.8;
+}
+.lateral-esquerda h1{
+    font-weight: lighter;
+    font-size: 310%;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+@media (max-width: 600px)
+{
+    .lateral-esquerda
+    {
+        display: none;
+    }
+}

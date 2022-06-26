@@ -1,0 +1,111 @@
+.section-formulario{
+    padding: 140px;
+    padding-top: 120px;
+    margin: 10px;
+    width: 60%;
+    height: 98vh;
+    position: fixed;
+    right: 0;
+}
+.cor-texto--formulario{
+    color: black;
+}
+.email-senha input{
+    width: 100%;
+}
+.form-login{
+    width: 489px;
+}
+.btn-registrar{
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+.crie-conta--texto{
+    margin-bottom: 10px;
+}
+.texto-processo-criacao{
+    margin-bottom: 20px;
+    font-size: 80%;
+}
+.img-gratis{
+    width: 20px;
+}
+.topo img{
+    margin: 0 0 -50px 90%;
+}
+.footer-formulario{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 85%;
+}
+.footer-formulario p{
+    color: #3d3d3d;
+
+}
+.form-retrato{
+    display: none;
+}
+.logo-dalvz{
+    display: none;
+}
+.footer-formulario p, a{
+    font-size: 95%;
+}
+@media (max-width: 600px)
+{
+    .form-retrato{
+        display: block;
+    }
+    .section-formulario
+    {
+        padding: 0px;
+        padding-top: 0px;
+        margin: 0 auto;
+        margin-top: 10px;
+        height: 0px;
+        position: relative;
+        width: 90%;
+        height: 98vh;
+    }
+    .comece-gratis{
+        font-size: 100%;
+        margin-bottom: 10px;
+    }
+    .texto-comece-gratis{
+        font-size: 80%;
+        margin-bottom: -15px;
+    }
+    .cor-texto--formulario{
+        color: black;
+    }
+    .logo-dalvz{
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 40px;
+        margin: 10px;
+    }
+    .img-gratis{
+        display: none;
+        width: 30px;
+    }
+    .form-login{
+        display: none;
+    }
+    button{
+        width: 99%;
+        margin-top: 35px;
+    }
+    input{
+        width: 99%;
+    }
+    .topo{
+        text-align: left;
+        margin-top: 10px;
+    }
+    .footer-formulario p, a{
+        font-size: 85%;
+    }
+}
